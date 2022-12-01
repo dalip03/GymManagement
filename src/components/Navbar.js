@@ -32,18 +32,17 @@ function Navbar(){
             <ul>
                 <li><a href='/'>Home</a></li>
                 <li><a href='/contact'>About Us</a></li>
-                <li><a href="./classes.html">Classes</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./team.html">Our Team</a></li>
+                <li><a href="/classes">Classes</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/team">Our Team</a></li>
                 <li><a href="#">Pages</a>
                     <ul class="dropdown">
-                        <li><a href="./about-us.html">About us</a></li>
-                        <li><a href="./class-timetable.html">Classes timetable</a></li>
-                        <li><a href="./bmi-calculator.html">Bmi calculate</a></li>
-                        <li><a href="./team.html">Our team</a></li>
+                        <li><a href="/aboutUs">About us</a></li>
+                        <li><a href="/classes">Classes timetable</a></li>
+                        <li><a href="bmiCalculator">Bmi calculate</a></li>
+                        <li><a href="/team">Our team</a></li>
                         <li><a href='/gallery'>Gallery</a></li>
-                        <li><a href="./blog.html">Our blog</a></li>
-                        <li><a href="./404.html">404</a></li>
+                        <li><a href="/blog">Our blog</a></li>
                     </ul>
                 </li>
                 <li><a href="./contact.html">Contact</a></li>
@@ -86,7 +85,6 @@ function Navbar(){
                                     <li><a href="/team">Our team</a></li>
                                     <li><a href="/gallery">Gallery</a></li>
                                     <li><a href="./blog.html">Our blog</a></li>
-                                    <li><a href="./404.html">404</a></li>
                                 </ul>
                             </li>
                             <li><a href=".">Contact</a></li>
