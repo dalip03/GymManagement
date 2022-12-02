@@ -134,11 +134,138 @@ ol {
 }
 
 .set-bg {
+	background-image: url('../img/hero/hero-1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
 }
 
+.set-bg-about{
+	background-image: url('../img/breadcrumb-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-about2{
+	background-image: url('../img/about-us.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-team1{
+	background-image: url('../img/team/team-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-team2{
+	background-image: url('../img/team/team-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-team3{
+	background-image: url('../img/team/team-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-team4{
+	background-image: url('../img/team/team-4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team5{
+	background-image: url('../img/team/team-5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team6{
+	background-image: url('../img/team/team-6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-classes{
+	background-image: url('../img/breadcrumb-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-classes1{
+	background-image: url('../img/letest-blog/latest-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-classes1{
+	background-image: url('../img/sidebar-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-services{
+	background-image: url('../img/banner-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-hero1{
+	background-image: url('../img/hero/hero-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-hero2{
+	background-image: url('../img/hero/hero-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team1{
+	background-image: url('../img/team/team-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team2{
+	background-image: url('../img/team/team-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team3{
+	background-image: url('../img/team/team-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team4{
+	background-image: url('../img/team/team-4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team5{
+	background-image: url('../img/team/team-5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-team6{
+	background-image: url('../img/team/team-6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;

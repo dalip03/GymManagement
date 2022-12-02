@@ -3,6 +3,13 @@ import Footer from './footer';
 import Navbar from './Navbar';
 import classDetails1 from '../Asset/img/classes/class-details/class-detailsl.jpg';
 import trainerProfile from '../Asset/img/classes/class-details/trainer-profile.jpg'
+import latest1 from '../Asset/img/letest-blog/latest-1.jpg'
+import latest2 from '../Asset/img/letest-blog/latest-2.jpg'
+import latest3 from '../Asset/img/letest-blog/latest-3.jpg'
+import latest4 from '../Asset/img/letest-blog/latest-4.jpg'
+import latest5 from '../Asset/img/letest-blog/latest-5.jpg'
+
+
 
 
 function Classes(){
@@ -11,7 +18,7 @@ function Classes(){
         <Navbar/>
 
         {/* <!-- Breadcrumb Section Begin --> */}
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb-bg.jpg">
+    <section class="breadcrumb-section set-bg-classes" data-setbg="img/breadcrumb-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -112,7 +119,7 @@ function Classes(){
                         </div>
                         <div class="so-latest">
                             <h5 class="title">Latest posts</h5>
-                            <div class="latest-large set-bg" data-setbg="img/letest-blog/latest-1.jpg">
+                            <div class="latest-large set-bg-classes1">
                                 <div class="ll-text">
                                     <h5><a href="#">This Japanese Way of Making Iced Coffee Is a Game...</a></h5>
                                     <ul>
@@ -123,7 +130,7 @@ function Classes(){
                             </div>
                             <div class="latest-item">
                                 <div class="li-pic">
-                                    <img src="img/letest-blog/latest-2.jpg" alt=""/>
+                                    <img src={latest4} alt=""/>
                                 </div>
                                 <div class="li-text">
                                     <h6><a href="#">Grilled Potato and Green Bean Salad</a></h6>
@@ -132,7 +139,7 @@ function Classes(){
                             </div>
                             <div class="latest-item">
                                 <div class="li-pic">
-                                    <img src="img/letest-blog/latest-3.jpg" alt=""/>
+                                    <img src={latest3} alt=""/>
                                 </div>
                                 <div class="li-text">
                                     <h6><a href="#">The $8 French Rosé I Buy in Bulk Every Summer</a></h6>
@@ -141,7 +148,7 @@ function Classes(){
                             </div>
                             <div class="latest-item">
                                 <div class="li-pic">
-                                    <img src="img/letest-blog/latest-4.jpg" alt=""/>
+                                    <img src={latest2} alt=""/>
                                 </div>
                                 <div class="li-text">
                                     <h6><a href="#">Ina Garten's Skillet-Roasted Lemon Chicken</a></h6>
@@ -150,7 +157,7 @@ function Classes(){
                             </div>
                             <div class="latest-item">
                                 <div class="li-pic">
-                                    <img src="img/letest-blog/latest-5.jpg" alt=""/>
+                                    <img src={latest1} alt=""/>
                                 </div>
                                 <div class="li-text">
                                     <h6><a href="#">The Best Weeknight Baked Potatoes, 3 Creative Ways</a></h6>
@@ -158,9 +165,9 @@ function Classes(){
                                 </div>
                             </div>
                         </div>
-                        <div class="so-banner set-bg" data-setbg="img/sidebar-banner.jpg">
+                        {/* <div class="so-banner set-bg-classes2">
                             <h5>Banner 300x300</h5>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

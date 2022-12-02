@@ -52,7 +52,7 @@ function Navbar(){
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="canvas-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/dalip-divaker-077a021b5/?originalSubdomain=in"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-youtube-play"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
@@ -62,7 +62,7 @@ function Navbar(){
        
         {/* <!-- Header Section Begin --> */}
     <header class="header-section">
-        <div class="container-fluid" style={{background:'black'}}>
+        <div class="container-fluid">
             <div class="row">
               <div class="col-lg-3">
                     <div class="logo">

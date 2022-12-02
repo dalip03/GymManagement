@@ -3,46 +3,54 @@ import Footer from './footer';
 import Navbar from './Navbar';
 import img from '../Asset/img/hero/hero-1.jpg'
 import hero from '../Asset/img/hero/hero-2.jpg'
+import team1 from "../Asset/img/team/team-1.jpg";
+import team2 from "../Asset/img/team/team-2.jpg";
+import team3 from "../Asset/img/team/team-3.jpg";
 
 function Index (){
     return(
         <>
         <Navbar/>
-        {/* Hero Section Begin  */}
-    
-    <section class="hero-section" >
-     {/* <div class="hs-slider owl-carousel"> */}
-        <div class="hs-item set-bg" data-setbg={img}>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-6">
-                        <div class="hi-text">
-                            <span>Shape your body</span>
-                            <h1>Be <strong>strong</strong> traning hard</h1>
-                            <a href="#" class="primary-btn">Get info</a>
+
+    {/* <!-- Hero Section Begin --> */}
+
+
+
+
+    <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg-hero1" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text">
+                                <span>Shape your body</span>
+                                <h1>Be <strong>strong</strong> traning hard</h1>
+                                <a href="#" class="primary-btn">Get info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hs-item set-bg-hero2" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text">
+                                <span>Shape your body</span>
+                                <h1>Be <strong>strong</strong> traning hard</h1>
+                                <a href="#" class="primary-btn">Get info</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hs-item set-bg" data-setbg={hero}>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-6">
-                        <div class="hi-text">
-                            <span>Shape your body</span>
-                            <h1>Be <strong>strong</strong> traning hard</h1>
-                            <a href="#" class="primary-btn">Get info</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {/* </div> */}
-</section>
-{/* <!-- Hero Section End --> */}
+    </section>
+    {/* <!-- Hero Section End -->  */}
 
 {/* <!-- ChoseUs Section Begin --> */}
+
 <section class="choseus-section spad">
     <div class="container">
         <div class="row">
