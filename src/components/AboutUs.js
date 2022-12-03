@@ -10,6 +10,7 @@ import "../Asset/css/magnific-popup.css";
 import '../Asset/css/owl.carousel.min.css';
 import "../Asset/css/carousel.min.css";
 import "../Asset/css/slicknav.min.css";
+
 import logo from "../Asset/img/logo.png";
 import logo1 from "../Asset/img/logo.png";
 import Footer from "./footer";
