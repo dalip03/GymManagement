@@ -218,6 +218,43 @@ ol {
 	background-position: top center;
 }
 
+.set-bg-gallery1{
+	background-image: url('../img/gallery/gallery-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-gallery2{
+	background-image: url('../img/gallery/gallery-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-gallery3{
+	background-image: url('../img/gallery/gallery-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-gallery4{
+	background-image: url('../img/gallery/gallery-4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-gallery5{
+	background-image: url('../img/gallery/gallery-5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.set-bg-gallery6{
+	background-image: url('../img/gallery/gallery-6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
 .set-bg-hero1{
 	background-image: url('../img/hero/hero-1.jpg');
 	background-repeat: no-repeat;

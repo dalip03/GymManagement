@@ -7,7 +7,7 @@ import "../Asset/css/bootstrap.min.css";
 import "../Asset/css/flaticon.css";
 import "../Asset/css/font-awesome.min.css";
 import "../Asset/css/magnific-popup.css";
-// import '../Asset/css/owl.carousel.min.css';
+import '../Asset/css/owl.carousel.min.css';
 import "../Asset/css/carousel.min.css";
 import "../Asset/css/slicknav.min.css";
 import logo from "../Asset/img/logo.png";
@@ -20,6 +20,7 @@ import team3 from "../Asset/img/team/team-3.jpg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import GetInTouch from "./getInTouch";
 
 function AboutUs() {
   return (
@@ -184,16 +185,16 @@ function AboutUs() {
           </div>
           <div class="row">
             
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            {/* // <div id="demo" class="carousel slide" data-ride="carousel">  */}
               {/* <!-- Indicators --> */}
-              <ul class="carousel-indicators">
+              {/* <ul class="carousel-indicators">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>
                 <li data-target="#demo" data-slide-to="2"></li>
-              </ul>
+              </ul> */}
 
               {/* <!-- The slideshow --> */}
-              <div class="carousel-inner">
+              {/* <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
                     className="img-responsive"
@@ -207,18 +208,18 @@ function AboutUs() {
                 <div class="carousel-item">
                   <img src={team3} alt="New York" />
                 </div>
-              </div>
+              </div> */}
 
               {/* <!-- Left and right controls --> */}
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              {/* <a class="carousel-control-prev" href="#demo" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </a>
               <a class="carousel-control-next" href="#demo" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </a>
-            </div>
+            </div> */}
 
-            {/* <div class="ts-slider owl-carousel">
+            <div class="ts-slider owl-carousel">
                 <div class="col-lg-4">
                     <div class="ts-item set-bg-team1" >
                         <div class="ts_text">
@@ -268,12 +269,11 @@ function AboutUs() {
                     </div>
                 </div>
             </div>
-    */}
           </div>
         </div>
       </section>
       {/* <!-- Team Section End --> */}
-
+      <GetInTouch/>
       <Footer />
     </>
   );

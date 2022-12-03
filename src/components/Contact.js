@@ -14,6 +14,7 @@ import '../Asset/css/slicknav.min.css';
 import img from '../Asset/img/hero/hero-1.jpg'
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import GetInTouch from "./getInTouch";
 
 function Contact() {
 
@@ -69,6 +70,7 @@ function Contact() {
         </div>
     </section>
     {/* <!-- Contact Section End --> */}
+    <GetInTouch/>
 <Footer/>
   </>
 

@@ -1,17 +1,35 @@
 import React from 'react'
 import Footer from './footer';
+import GetInTouch from './getInTouch';
 import Navbar from './Navbar';
 function Plans(){
     return(
         <>
         <Navbar/>
+        {/* <!-- Breadcrumb Section Begin --> */}
+    <section class="breadcrumb-section set-bg-classes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb-text">
+                        <h2>Our Plans</h2>
+                        <div class="bt-option">
+                            <a href="/index">Home</a>
+                            <span>Our Plans</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* <!-- Breadcrumb Section End --> */}
         {/* <!-- Pricing Section Begin --> */}
 <section class="pricing-section spad">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <span>Our Plan</span>
+                    <span>Our Plans</span>
                     <h2>Choose your pricing plan</h2>
                 </div>
             </div>
@@ -78,6 +96,7 @@ function Plans(){
     </div>
 </section>
 {/* <!-- Pricing Section End --> */}
+<GetInTouch/>
         <Footer/>
         </>
     );
