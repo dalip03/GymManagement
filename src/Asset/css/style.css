@@ -224,7 +224,75 @@ ol {
 	background-size: cover;
 	background-position: top center;
 }
+.set-bg-contact{
+	background-image: url('../img/contact-breadcrumb.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
 
+.set-bg-class1{
+	background-image: url('../img/class/classes-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class2{
+	background-image: url('../img/class/classes-7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class3{
+	background-image: url('../img/class/classes-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class4{
+	background-image: url('../img/class/classes-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class5{
+	background-image: url('../img/class/classes-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class6{
+	background-image: url('../img/class/classes-6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class7{
+	background-image: url('../img/class/classes-7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class8{
+	background-image: url('../img/class/classes-9.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.set-bg-class9{
+	background-image: url('../img/class/classes-4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
 .set-bg-gallery2{
 	background-image: url('../img/gallery/gallery-2.jpg');
 	background-repeat: no-repeat;
